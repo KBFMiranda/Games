@@ -1,0 +1,31 @@
+#region Tiro
+
+var flipped = directios;
+var gun_x = (x+4)*(flipped)
+var _xx = x + lengthdir_x(15,image_angle)
+var y_offset = lengthdir_y(-20,image_angle)
+
+if key_shoot and global.bullets > 0
+{
+with (instance_create_layer(_xx,y+10,"shoot",oTiro))
+{
+
+global.bullets --;
+//VELOCIDADE
+speed = 10;
+//DIREÇAO
+derection = -90 + 90 * other.image_xscale;
+//ANGULO
+image_angle = direction
+
+
+
+
+}
+
+}
+
+
+
+
+#endregio
